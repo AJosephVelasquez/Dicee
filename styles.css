@@ -1,0 +1,59 @@
+.container {
+  width: 70%;
+  margin: auto;
+}
+
+.dice {
+  display: inline-block;
+}
+
+body {
+  background-color: #FFDEB4;
+  text-align: center;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #7A4069;
+}
+
+button {
+  display: block;
+  margin: auto;
+  padding: 1% 2%;
+  border-radius: 20%;
+  font-family: 'Lobster', cursive;
+  font-size: large;
+  background-color: #CA4E79;
+}
+
+button:hover {
+  background-color: #eb8888df;
+}
+
+button:active {
+    background-color: #786060;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+p {
+  font-size: 2rem;
+  color: #7A4069;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #231955;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.3rem;
+}
